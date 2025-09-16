@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script listens on port 98 on localhost
+# and prints any incoming text to the terminal.
+
+nc -l -p 98 -s 127.0.0.1
